@@ -1,0 +1,57 @@
+/* 头部 */
+.indexContainer .header {
+  display: flex;
+  padding: 10rpx 0;
+}
+.indexContainer .header .logo {
+  width: 140rpx;
+  height: 40rpx;
+  margin: 10rpx 20rpx;
+}
+.indexContainer .header .search {
+  position: relative;
+  width: 420rpx;
+  height: 60rpx;
+  background: #eee;
+}
+.indexContainer .header .search input {
+  width: 370rpx;
+  margin-left: 50rpx;
+  height: 60rpx;
+  font-size: 26rpx;
+}
+.indexContainer .header .search .iconfont {
+  position: absolute;
+  font-size: 30rpx;
+  top: 15rpx;
+  left: 8rpx;
+}
+.indexContainer .header .search .placehold {
+  font-size: 26rpx;
+}
+.indexContainer .header button {
+  width: 144rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size: 24rpx;
+  padding: 0 4rpx;
+}
+/* 导航 */
+.navScroll {
+  display: flex;
+  height: 82rpx;
+  white-space: nowrap;
+}
+.navScroll .navItem {
+  display: table;
+  width: 140rpx;
+  height: 80rpx;
+  box-sizing: border-box;
+  text-align: center;
+  line-height: 80rpx;
+  font-size: 26rpx;
+}
+.navScroll .navItem.active {
+  border-bottom: 1rpx solid #bb2c08;
+}
+

@@ -1,0 +1,83 @@
+.recommendContainer {
+  height: 100%;
+}
+.recommendContainer .banners {
+  width: 100%;
+  height: 350rpx;
+}
+.recommendContainer .banners image {
+  width: 100%;
+  height: 350rpx;
+}
+.recommendContainer .policyDisplayList {
+  display: flex;
+}
+.recommendContainer .policyDisplayList .policyItem {
+  vertical-align: middle;
+  flex: 1;
+  text-align: center;
+}
+.recommendContainer .policyDisplayList .policyItem image {
+  width: 32rpx;
+  height: 32rpx;
+}
+.recommendContainer .policyDisplayList .policyItem text {
+  font-size: 24rpx;
+}
+.recommendContainer .kingKongList {
+  display: flex;
+  flex-wrap: wrap;
+}
+.recommendContainer .kingKongList .kingKongItem {
+  display: flex;
+  width: 20%;
+  flex-direction: column;
+  align-items: center;
+}
+.recommendContainer .kingKongList .kingKongItem image {
+  width: 110rpx;
+  height: 110rpx;
+  margin: 20rpx 0;
+}
+.recommendContainer .kingKongList .kingKongItem text {
+  font-size: 24rpx;
+}
+.recommendContainer .categoryPictureContainer .categoryItem {
+  margin-bottom: 20rpx;
+}
+.recommendContainer .categoryPictureContainer .categoryItem .titlePic {
+  width: 100%;
+  height: 370rpx;
+}
+.recommendContainer .categoryPictureContainer .categoryItem .shopListScroll {
+  white-space: nowrap;
+}
+.recommendContainer .categoryPictureContainer .categoryItem .shopListScroll .shopItem {
+  display: inline-block;
+  width: 200rpx;
+  vertical-align: top;
+  margin-right: 20rpx;
+}
+.recommendContainer .categoryPictureContainer .categoryItem .shopListScroll .shopItem.checkMore {
+  width: 200rpx;
+  height: 200rpx;
+  background-color: #eee;
+  text-align: center;
+  font-size: 28rpx;
+  line-height: 200rpx;
+}
+.recommendContainer .categoryPictureContainer .categoryItem .shopListScroll .shopItem .shopPic {
+  width: 200rpx;
+  height: 200rpx;
+  background-color: #eee;
+}
+.recommendContainer .categoryPictureContainer .categoryItem .shopListScroll .shopItem .shopName {
+  font-size: 26rpx;
+  white-space: pre-wrap;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+

@@ -1,0 +1,46 @@
+.catedetailContainer .swiperContainer .swiperItem .swiper-item .bannerImg {
+  width: 100%;
+  height: 370rpx;
+}
+.catedetailContainer .title {
+  display: block;
+  text-align: center;
+  font-size: 34rpx;
+  color: #333;
+  line-height: 70rpx;
+}
+.catedetailContainer .desc {
+  display: block;
+  text-align: center;
+  font-size: 24rpx;
+  color: #999;
+  line-height: 40rpx;
+}
+.catedetailContainer .contentList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0 20rpx;
+/* &:after{
+			content: '';
+			width: 344rpx;
+		} */
+}
+.catedetailContainer .contentList .shopItem {
+  width: 344rpx;
+}
+.catedetailContainer .contentList .shopItem:last-child {
+  margin-right: auto;
+}
+.catedetailContainer .contentList .shopItem .shopImg {
+  width: 344rpx;
+  height: 344rpx;
+}
+.catedetailContainer .contentList .shopItem .shopItemName {
+  font-size: 26rpx;
+  line-height: 50rpx;
+}
+.catedetailContainer .contentList .shopItem .retailPrice {
+  color: #bb2c08;
+}
+
